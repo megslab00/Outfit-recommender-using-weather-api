@@ -1,2 +1,65 @@
-# Outfit recommender using weather api
-A smart web-based outfit recommendation system that suggests suitable clothing based on real-time weather conditions. This project integrates a pre-trained deep learning model with a weather API to personalize fashion choices according to temperature, humidity, and weather type (e.g., sunny, rainy, cold).  Key Features:  🌦️ Weather-Based Input: Fetches current weather data using OpenWeatherMap API based on user location.  👗 Deep Learning Model: Utilizes MobileNetV2 for outfit classification, trained on the Fashion Product Images dataset.  🧠 Intelligent Recommendation: Maps weather conditions to appropriate outfit categories (e.g., jackets for cold weather, cotton wear for summer).  🖼️ Visual Display: Displays top-matching outfit images along with brief weather summary.  🛠️ Tech Stack: Python, TensorFlow/Keras, Flask, HTML/CSS, JavaScript, OpenWeatherMap API.  Use Case Example: If the weather is rainy and 22°C, the system may suggest a lightweight waterproof jacket, jeans, and closed shoes.
+<div align="center">
+
+# 👗 Outfit Recommender Based on Weather Conditions
+
+A smart outfit recommendation system that uses real-time weather data to suggest appropriate clothing. It combines deep learning for outfit classification with a weather API for dynamic suggestions.
+
+</div>
+
+---
+
+## 🧠 Project Overview
+
+This project predicts suitable outfits by:
+- Fetching **live weather data** using the **OpenWeatherMap API**
+- Classifying outfits using a pre-trained **MobileNetV2** model
+- Displaying relevant outfit **images from your dataset** based on current weather conditions
+
+---
+
+## 🚀 Features
+
+- 🌦️ Real-time weather integration using location or city input
+- 👕 Intelligent outfit recommendations (e.g., jackets for cold, cotton for hot)
+- 🖼️ Visual outfit suggestions based on classified images
+- 🔍 Simple web interface using **Flask**
+- ⚙️ Lightweight and fast with MobileNetV2
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool         | Purpose                         |
+|--------------|----------------------------------|
+| Python       | Core logic and backend          |
+| Flask        | Web application framework       |
+| TensorFlow/Keras | Deep learning model (MobileNetV2) |
+| OpenWeatherMap API | Weather data integration  |
+| HTML/CSS/JS  | Frontend for user interaction   |
+
+---
+
+## 📁 Dataset
+
+- **Fashion Product Images (Small)** from Kaggle
+- Contains `styles.csv` for metadata and an `images` folder with clothing images
+- Images used to train a lightweight MobileNetV2-based classifier
+
+---
+
+## 📷 Sample Output
+
+| Weather | Recommended Outfit |
+|--------|---------------------|
+| ☀️ 32°C Sunny | Cotton T-shirt, Shorts |
+| 🌧️ 22°C Rainy | Raincoat, Jeans |
+| ❄️ 10°C Cold | Wool Jacket, Boots |
+
+---
+
+## 🔧 How to Run
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/outfit-recommender-weather.git
+   cd outfit-recommender-weather
