@@ -1,0 +1,7 @@
+weather,temperature_range,top,top_image,pants,pants_image,footwear,footwear_image
+sunny,25-35,T-shirt,https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9,Shorts,https://images.unsplash.com/photo-1598033129183-c4f50c736f10,Sandals,https://images.unsplash.com/photo-1543163521-1bf539c55dd2
+sunny,20-25,Tank top,https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9,Jeans,https://images.unsplash.com/photo-1473966968600-fa801b869a1a,Sneakers,https://images.unsplash.com/photo-1460353581641-37baddab0fa2
+rainy,10-20,Rain jacket,https://images.unsplash.com/photo-1539533018447-63fcce2678e4,Waterproof pants,https://images.unsplash.com/photo-1591047139829-d91aecb6caea,Rain boots,https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg
+rainy,5-10,Sweater,https://images.pexels.com/photos/974911/pexels-photo-974911.jpeg,Jeans,https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg,Boots,https://images.unsplash.com/photo-1549298916-f52d724204b4
+cold,0-5,Puffer jacket,https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3,Thermal leggings,https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg,Winter boots,https://images.pexels.com/photos/1456706/pexels-photo-1456706.jpeg
+cold,-5-0,Thermal top,https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg,Snow pants,https://images.unsplash.com/photo-1515886657613-9f3515b0c78f,Snow boots,https://images.unsplash.com/photo-1515886657613-9f3515b0c78f
